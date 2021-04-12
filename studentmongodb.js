@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mongodb = require("mongodb");
-const URL = "mongodb+srv://shashikanth:user123@cluster0.0d43a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const DB = "studentmongodb";
+const URL = "mongodb+srv://shashikanth:user123@cluster0.pviae.mongodb.net?retryWrites=true&w=majority";
+const DB = "studentmongodb-nodejs";
 // const bcrypt=require("bcryptjs")
 app.use(cors());
 app.use(express.json());
